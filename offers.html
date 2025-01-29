@@ -21,11 +21,10 @@
   
       <!-- header area -->
       <header>
-        <div class="container">
         
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light sticky-top mb-5">
-              <div class="container-fluid">
+              <div class="container">
                 <a class="navbar-brand logo-img" href="index.html"><img src="image/logo/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -51,17 +50,45 @@
                       <button class="btn-dgn border-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
 
-                    <div class="nav-icon d-flex">
-                        <button class="nav-btn border-none"><img src="image/icon/pic-1.png" alt=""></button>
-                        <a href="#"><img src="image/icon/pic-2.png" alt=""></a>
-                    </div>
+                    <div class="nav-icon">
+                      <button type="button" class="nav-btn border-none btn-custom"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="image/icon/pic-1.png" alt=""></button>
+    
+                      <a href="#"><img src="image/icon/pic-2.png" alt=""></a>
+                  </div>
                   </div>
                 </div>
               </div>
             </nav>
              
-        </div>
     </header>
+
+
+     <!-- (Popup) -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title " id="exampleModalLabel">Payment</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body payment-design text-center" >
+            <h2 class="text-center mb-5">Sign in</h2>
+              <div class="text-center modal-input" >
+                <input class="d-block m-auto modal-input mb-4" id="modal-sr" type="text" placeholder="Enter your mobile number">
+                <button>Login</button>
+
+                <div class="d-flex justify-content-center align-items-center mt-2 mb-2 p-0">
+                  <hr>
+                  <p class="label mb-0 mx-2 m-0 p-0">Or</p>
+                  <hr>
+                </div>
+              </div>
+              <button class="m-auto google-button mb-5"><img width="30px" class="pe-2" src="image/icon/pic-6.png" alt="">Continue with Google</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
 
         <!-- slide area -->
@@ -228,11 +255,10 @@
 
 
      <footer>
-        <div class="container mt-5">
-  
-          <hr>
-  
-          <div class="row footer-main">
+      <div class="container mt-5">
+        <div class="footer-main">
+
+          <div class="row pt-4">
             <div class="col-md-7 footer-left">
               <div class="row">
                 <div class="col-md-3 footer-1-list">
@@ -320,16 +346,16 @@
   
           </div>
   
-  
-          <div class="footer-company">
+          <div class="footer-company pb-4">
             <img src="image/company/15.jpg" alt="">
           </div>
-          
-          <hr>
-  
-          <p class="copyright">Design by Nahin</p>
         </div>
-      </footer>
+
+
+        <p class="copyright my-3 fs-6">Design by Nahin</p>
+      </div>
+    </footer>
+
   
 
 

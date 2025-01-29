@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/product-page.css">
+
+  
+
+    <!-- bootstrap css link-->
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <style>
+
+
+     </style>
+</head>
+<body>
+    
+        
+    <!-- header area -->
+    <header>       
+        
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light  sticky-top ">
+              <div class="container">
+                <a class="navbar-brand logo-img" href="index.html"><img src="../image/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav   mb-lg-0">
+                    <li class="nav-item">
+                      <a class="list-none text-decoration" aria-current="page" href="sell.html">Sell</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="list-none text-decoration" aria-current="page" href="buy.html">Buy</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="list-none text-decoration" aria-current="page" href="offers.html">Offers</a>
+                    </li>
+                   
+                  </ul>
+
+                  <div class="d-flex p2">
+                    <form class="p1 d-flex">
+                      <input class=" form" type="search" id="search-bar" placeholder="Search" aria-label="Search">
+                      <button class="btn-dgn border-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+
+                    <div class="nav-icon">
+                      <button type="button" class="nav-btn border-none btn-custom"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../image/icon/pic-1.png" alt=""></button>
+    
+                      <a href="#"><img src="../image/icon/pic-2.png" alt=""></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+             
+        </div>
+             
+    </header>
+
+
+
+    <!-- (Popup) -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title " id="exampleModalLabel">Payment</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body payment-design text-center" >
+            <h2 class="text-center mb-5">Sign in</h2>
+              <div class="text-center modal-input" >
+                <input class="d-block m-auto modal-input mb-4" id="modal-sr" type="text" placeholder="Enter your mobile number">
+                <button>Login</button>
+
+                <div class="d-flex justify-content-center align-items-center mt-2 mb-2 p-0">
+                  <hr>
+                  <p class="label mb-0 mx-2 m-0 p-0">Or</p>
+                  <hr>
+                </div>
+              </div>
+              <button class="m-auto google-button mb-5"><img width="30px" class="pe-2" src="image/icon/pic-6.png" alt="">Continue with Google</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <main class="container">
+
+      <div class="container m1 bg-color">
+          <div class="row">
+              <div class="col-md-5 ">
+                  <div class="product-btn d-flex justify-content-evenly text-decoration-none my-3">
+                      <a class="text-decoration-none my-auto product-btn-color" href="#">Buy</a>
+                      <a class="right-arow my-auto" href="#"><i class="fa-solid fa-greater-than"></i></a>
+                      <a class="text-decoration-none my-auto product-btn-color2" href="#">Details</a>
+                  </div>
+  
+                    <!-- slide area -->
+                 <div class="container m-b">
+        
+         
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../image/product-page-img/pic-1.jpg" class="d-block w-100 mx-auto" alt="Image 1">
+              </div>
+              <div class="carousel-item">
+                  <img src="../image/product-page-img/pic-2.jpg" class="d-block w-100 mx-auto" alt="Image 2">
+              </div>
+              <div class="carousel-item">
+                  <img src="../image/product-page-img/pic-3.jpg" class="d-block w-100 mx-auto" alt="Image 3">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span> -->
+              <span class="text-dark arow" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span> -->
+              <span class="text-dark arow" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                  <img src="../image/product-page-img/pic-1.jpg" class="d-block w-100 " alt="Thumbnail 1" style="">
+              </button>
+              <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+                  <img src="../image/product-page-img/pic-2.jpg" class="d-block w-100" alt="Thumbnail 2" style="height: 60px; width: auto;">
+              </button>
+              <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+                  <img src="../image/product-page-img/pic-3.jpg" class="d-block w-100" alt="Thumbnail 3" style="height: 60px; width: auto;">
+              </button>
+          </div>
+      </div>
+                 </div>
+  
+                 <div class="">
+                  <p>ADDITIONAL NOTE</p>
+                  <P class="note">4 Months Full Replacement Warranty</P>
+                 </div>
+    
+              </div>
+              <div class="col-md-7 info-area">
+  
+                <div class="d-flex justify-content-between info-title">
+                  <div class="ps-4">
+                    <h3>Iphone</h3>
+                    <p class="color4">Swap Bangladesh</p>
+                  </div>
+
+                  <div class="d-flex pe-4 title-price">
+                    <h3 class="pe-3"><span class="price-sym">৳</span>1000</h3>
+                    <a class="shopping-icon" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                </div>
+
+                <hr class="w-100 color5">
+
+                <div>
+                  <p>CONNECTION TYPE</p>
+                  <button class="info-btn">USB Type - C</button>
+                </div>
+
+                <hr class="w-100 color5">
+
+                <div>
+                  <p>OUTPUT</p>
+                  <button class="info-btn">N/A</button>
+                </div>
+
+                <hr class="w-100 color5">
+
+                <div>
+                  <p>CONDITIONS</p>
+                  <button class="info-btn">Brand New(Official)</button>
+                </div>
+
+                <hr class="w-100 color5">
+
+                <div>
+                  <p>CHOOSE DIFFERENT UNIT</p>
+                  <div class="choose-item">
+
+                    <div class="d-flex ps-2 pt-3">
+                      <img width="50px" height="40px" src="../image/product-page-img/pic-7.jpg" alt="">
+                      <p class="pt-2 ps-2 fs-5">Swap Bangladesh</p>
+                    </div>
+                    <p class="fw-bold ps-2 pb-5">RIVO A S 33D</p>
+
+                    <hr class="w-100 color5">
+                    <div class="d-flex justify-content-between pb-3">
+                      <p class="pt-2 ps-2">৳1000</p>
+                      <button class="choose-btn me-2">Choose Item</button>
+                    </div>
+
+                  </div>
+            
+              </div>
+
+
+              <div class="mt-5">
+                <p>COUPON CODE</p>
+
+                <div>
+                  <input class="coupon-text" type="text" placeholder="Have a Coupon?">
+                  <button class="choose-btn me-2">Apply</button>
+                </div>
+              </div>
+  
+          </div>
+  
+  
+          
+  
+      </div>
+    </main>
+
+     <!-- bootstrap js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

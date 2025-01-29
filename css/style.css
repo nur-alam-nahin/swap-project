@@ -119,6 +119,66 @@ input#search-bar{
     z-index: 1020;
 }
 
+
+.modal-content {
+    border-radius: 10px !important;
+    padding: 1.6rem !important;
+}
+
+.modal-input{}
+.modal-input input {
+    width: 100%;
+    height: 47px;
+    border-radius: 8px;
+    border:1px solid #d9d9d9;
+    outline: none;
+    text-align: center;
+    font-size: 19px;
+}
+
+input#modal-sr{
+    outline: none;
+    &:focus{
+      border: 1px solid #9c9c9c;
+    }
+}
+.modal-input button {
+    width: 100%;
+    height: 47px;
+    border-radius: 8px;
+    background: #0185a5;
+    color: #fff;
+    font-size: 18px;
+}
+
+hr {
+    width: 165px !important;
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.google-button {
+    width: 100%;
+    height: 60px;
+    transition: background-color .3s,box-shadow .3s;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0,0,0,.04),0 1px 1px rgba(0,0,0,.25);
+    color: #757575;
+    font-size: 18px;
+    font-weight: 500;
+    background: none;
+}
+
+.google-button:hover {
+    box-shadow: 0 -1px 0 rgba(0,0,0,.04),0 2px 4px rgba(0,0,0,.25);
+}
+
+
 /* chose product section */
 
 .category-icon {
@@ -210,7 +270,6 @@ max-height: 60%;
     position: relative;
 }
 .con-1-header h3 {
-    float: left;
     padding-left: 14px;
 }
 
@@ -225,22 +284,25 @@ max-height: 60%;
     
 }
 
-.con-1-button {
-    text-align: end;
-}
 
-.con-1-button button {
+.con-1-button {
     background: #088aab;
     border: 1px solid #035e75;
-    color: #fff !important;
-    width: 110px;
-    height: 40px;
     border-radius: 4px;
-    font-weight: 500;
-    transition: .5s;
+    width: 100px;
+    height: 41px;
+    text-align: center;
+    padding-top: 7px;
 }
 
-.con-1-button button:hover{
+.con-1-button a{
+    color: #fff !important;
+    font-weight: 500;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.con-1-button a:hover{
     font-weight: 700;
 }
 
@@ -554,9 +616,22 @@ max-height: 60%;
 
 
 
+/* product-area */
+.product-btn{
+    color: #000;
+}
+.product-btn a{
+    color: #000;
+}
+
+
 
 /* footer */
 
+.footer-main {
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
 
 /* left */
 .footer-left {
@@ -693,3 +768,7 @@ max-height: 60%;
     text-align: center;
     font-size: 12px;
 }
+
+
+
+
