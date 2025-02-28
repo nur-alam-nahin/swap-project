@@ -21,7 +21,7 @@
 .list-none{list-style: none;}
 
 /* padding */
-.p1 {padding-left: 18rem;}
+.p1 {padding-left: 7rem;}
 /* margin */
 .m1{margin-top: 100px;}
 
@@ -120,12 +120,17 @@ input#search-bar{
 }
 
 
+.modal-backdrop {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .modal-content {
     border-radius: 10px !important;
     padding: 1.6rem !important;
 }
 
-.modal-input{}
+
 .modal-input input {
     width: 100%;
     height: 47px;
@@ -211,8 +216,8 @@ max-height: 60%;
 }
 .carousel-control-prev {
     
-    height: 30px;
-    top: 200px !important;
+    /* height: 30px;
+    top: 200px !important; */
     left: -60px !important;
     transition: .3s !important;
 }
@@ -225,11 +230,11 @@ max-height: 60%;
 
 /* right arow */
 
-.carousel-control-next{
-    height: 30px;
-    top: 200px !important;
+.carousel-control-next {
+    /* height: 30px; */
+    /* top: 200px !important; */
     right: -60px !important;
-    transition: .3s !important;   
+    transition: .3s !important;
 }
 
 
@@ -363,8 +368,8 @@ max-height: 60%;
 
 
 .con-card {
-    width: 179px;
-    margin: 5px;
+    width: 173px;
+    margin: 8px;
     height: 229px;
     border-radius: 9px;
     text-align: center;

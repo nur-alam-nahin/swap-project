@@ -25,40 +25,53 @@
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light sticky-top mb-5">
               <div class="container">
-                <a class="navbar-brand logo-img" href="index.html"><img src="image/logo/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav   mb-lg-0">
-                    <li class="nav-item">
-                      <a class="list-none text-decoration" aria-current="page" href="sell.html">Sell</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="list-none text-decoration" aria-current="page" href="buy.html">Buy</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="list-none text-decoration" aria-current="page" href="offers.html">Offers</a>
-                    </li>
-                   
-                  </ul>
+                  <!-- Left Side (Logo + Navigation Links) -->
+                  <a class="navbar-brand logo-img" href="index.html"><img src="image/logo/logo.png" alt=""></a>
+                  <button class="navbar-toggler sm-mr1" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+          
+                  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                      <!-- Left Side Menu -->
+                      <ul class="navbar-nav mb-lg-0">
+                          <li class="nav-item">
+                              <a class="list-none text-decoration" aria-current="page" href="sell.html">Sell</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="list-none text-decoration" aria-current="page" href="buy.html">Buy</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="list-none text-decoration" aria-current="page" href="offers.html">Offers</a>
+                          </li>
+                      </ul>
+          
+                      <!-- Right Side (Search + Icons) -->
+                      <div class="d-flex align-items-center">
+                          <!-- Search Bar -->
+                          <!-- 
+                              <input class="form-control" type="search" id="search-bar" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-secondary ms-2" type="submit">
+                                  <i class="fa-solid fa-magnifying-glass"></i>
+                              </button>
+                          </form> -->
 
-                  <div class="d-flex p2">
-                    <form class="p1 d-flex">
-                      <input class=" form" type="search" id="search-bar" placeholder="Search" aria-label="Search">
-                      <button class="btn-dgn border-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-
-                    <div class="nav-icon">
-                      <button type="button" class="nav-btn border-none btn-custom"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="image/icon/pic-1.png" alt=""></button>
-    
-                      <a href="#"><img src="image/icon/pic-2.png" alt=""></a>
+                          <form class="d-flex">
+                            <input class="form" type="search" id="search-bar" placeholder="Search" aria-label="Search">
+                            <button class="btn-dgn border-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                          </form>
+          
+                          <!-- Profile & Cart Icons -->
+                          <div class="nav-icon">
+                            <button type="button" class="nav-btn border-none btn-custom"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="image/icon/pic-1.png" alt=""></button>
+          
+                            <a href="#"><img src="image/icon/pic-2.png" alt=""></a>
+                        </div>
+                      </div>
                   </div>
-                  </div>
-                </div>
               </div>
-            </nav>
+          </nav>
              
     </header>
 

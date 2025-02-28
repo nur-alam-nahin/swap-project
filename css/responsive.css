@@ -53,10 +53,30 @@
   }
 
 
-  .p1 {padding-left: 10rem;}
+  .con-w {
+    width: 16.95% !important;
+}
+
 
 .form {
   width: 200px;
+}
+
+
+.carousel-control-prev {
+    
+  /* height: 30px;
+  top: 170px !important; */
+  left: -60px !important;
+  transition: .3s !important;
+}
+
+
+.carousel-control-next {
+  /* height: 30px;
+  top: 170px !important; */
+  right: -60px !important;
+  transition: .3s !important;
 }
     
   }
@@ -113,9 +133,9 @@
       margin-right: 2rem;
   }
 
-  .sm-mr1 {
+  /* .sm-mr1 {
     margin-right: 9.5rem;
-}
+} */
 
 
     /* card */
@@ -158,8 +178,8 @@
      
     /* left arow */
     .carousel-control-prev {
-      height: 30px;
-      top: 60px !important;
+      /* height: 30px;
+      top: 60px !important; */
       left: -4px !important;
       transition: .3s !important;
     }
@@ -171,8 +191,8 @@
     
 /* right arow */
     .carousel-control-next {
-      height: 30px;
-      top: 60px !important;
+      /* height: 30px;
+      top: 60px !important; */
       right: -4px !important;
       transition: .3s !important;
     }
@@ -245,5 +265,10 @@
   margin: 6px !important;
 }
 
+
+.coupon-text {
+  width: 230px !important;
+
+}
 
 }
